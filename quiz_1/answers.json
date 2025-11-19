@@ -1,0 +1,189 @@
+{
+  "resultType": "scoredText",
+  "resultRanges": [
+    { "min": -100, "max": -10, "text": "Ты — забытый носок в стиральной машине." },
+    { "min": -9, "max": 0, "text": "Ты — чипсы с крабом" },
+    { "min": 1, "max": 5, "text": "Ты — сын маминой подруги." },
+    { "min": 6, "max": 10, "text": "Ты — школьный пенис." },
+    { "min": 11, "max": 15, "text": "Ты — бабушка с пакетами в автобусе." },
+    { "min": 16, "max": 20, "text": "Ты — Пёс ебучий." },
+    { "min": 21, "max": 25, "text": "Ты — вайфай в подвале." },
+    { "min": 26, "max": 100, "text": "Ты — внезапный звонок из leomax в 3 ночи." }
+  ],
+  "questions": [
+    {
+      "type": "yesno",
+      "image": "le.jpg",
+      "caption": "Ты когда-нибудь ел чипсы прямо над унитазом?",
+      "scoreIfYes": 1,
+      "scoreIfNo": 0
+    },
+    {
+      "type": "number",
+      "image": "pick.jpg",
+      "caption": "Сколько раз ты притворялся, что смотришь порно, чтобы не здороваться?",
+      "minValue": 0,
+      "maxValue": 500,
+      "scoreFormula": "value / 10"
+    },
+    {
+      "type": "choice",
+      "image": "kotakbas.jpg",
+      "caption": "Что ты делаешь, когда орёт воздушная тревога?",
+      "options": [
+        { "text": "Бегу как будто жизнь зависит от прапорщика", "score": 2 },
+        { "text": "Сосу бибу", "score": 1 },
+        { "text": "Притворяюсь, что не слышал", "score": 3 },
+        { "text": "Порно", "score": 4 }
+      ]
+    },
+    {
+      "type": "yesno",
+      "image": "tiktok.jpg",
+      "caption": "Ты моешь руки после того, как листал TikTok?",
+      "scoreIfYes": -1,
+      "scoreIfNo": 1
+    },
+    {
+      "type": "number",
+      "image": "man1.png",
+      "caption": "Сколько носков у тебя потерялось в стирке?",
+      "minValue": 0,
+      "maxValue": 100,
+      "scoreFormula": "value / 5"
+    },
+    {
+      "type": "choice",
+      "image": "yog.jpg",
+      "caption": "Как ты выбираешь йогурт в магазине?",
+      "options": [
+        { "text": "По сроку годности", "score": 0 },
+        { "text": "По картинке на упаковке", "score": 2 },
+        { "text": "Беру тот, что упал с полки", "score": 3 },
+        { "text": "Не ем йогурты, я — делаю йогурты", "score": -2 }
+      ]
+    },
+    {
+      "type": "yesno",
+      "image": "kaloed.jpg",
+      "caption": "Ты когда-нибудь говорил ща сосну и не сосал?",
+      "scoreIfYes": 2,
+      "scoreIfNo": 0
+    },
+    {
+      "type": "number",
+      "image": "1.jpg",
+      "caption": "Сколько раз ты смотрел порно за последние 24 часа?",
+      "minValue": 0,
+      "maxValue": 100,
+      "scoreFormula": "value / 10"
+    },
+    {
+      "type": "choice",
+      "image": "9.jpg",
+      "caption": "Что ты кладёшь в очко, если «ничего нет»?",
+      "options": [
+        { "text": "Масло и мечты", "score": 1 },
+        { "text": "Сахар, потому что жизнь горькая", "score": 3 },
+        { "text": "Кетчуп и хлеб — это мой стиль", "score": 4 },
+        { "text": "Я не ем бутеры, я — питаюсь вибрациями", "score": -1 }
+      ]
+    },
+    {
+      "type": "yesno",
+      "image": "2.png",
+      "caption": "Ты считаешь, что шлёпанцы — нормальная обувь на улицу?",
+      "scoreIfYes": 2,
+      "scoreIfNo": -1
+    },
+    {
+      "type": "number",
+      "image": "man2.png",
+      "caption": "Сколько «вспомнишь потом» у тебя висит на члене?",
+      "minValue": 0,
+      "maxValue": 20,
+      "scoreFormula": "value"
+    },
+    {
+      "type": "choice",
+      "image": "3.png",
+      "caption": "Как ты зовёшь свою тень?",
+      "options": [
+        { "text": "Не зову, она сама ходит", "score": 1 },
+        { "text": "Брат", "score": 3 },
+        { "text": "Она мне не подчиняется", "score": 2 },
+        { "text": "У меня её нет — я играю в геншин", "score": 5 }
+      ]
+    },
+    {
+      "type": "yesno",
+      "image": "eb.jpg",
+      "caption": "Ты когда-нибудь чистил шпагу в душе?",
+      "scoreIfYes": 1,
+      "scoreIfNo": 0
+    },
+    {
+      "type": "number",
+      "image": "4.jpg",
+      "caption": "Сколько раз ты пытался начать новую жизнь с понедельника?",
+      "minValue": 0,
+      "maxValue": 1000,
+      "scoreFormula": "value / 100"
+    },
+    {
+      "type": "choice",
+      "image": "taz.jpg",
+      "caption": "Что ты делаешь, когда звонит проститутка, а ты не в настроении?",
+      "options": [
+        { "text": "Сбрасываю и пишу «ща перезвоню»", "score": 2 },
+        { "text": "Говорю, что на работе", "score": 1 },
+        { "text": "Беру трубку и плачу", "score": 4 },
+        { "text": "Я — её гордость, я всегда в настроении", "score": -3 }
+      ]
+    },
+    {
+      "type": "yesno",
+      "image": "5.jpg",
+      "caption": "Ты веришь, что «завтра соснёшь»?",
+      "scoreIfYes": -2,
+      "scoreIfNo": 2
+    },
+    {
+      "type": "number",
+      "image": "kal.jpg",
+      "caption": "Сколько непрочитанных сообщений у тебя в борделе?",
+      "minValue": 0,
+      "maxValue": 10000,
+      "scoreFormula": "value / 1000"
+    },
+    {
+      "type": "choice",
+      "image": "6.jpg",
+      "caption": "Как ты ешь мороженое в форме пениса летом?",
+      "options": [
+        { "text": "Пока никто не видит", "score": 1 },
+        { "text": "На балконе, как король", "score": 2 },
+        { "text": "Сразу две порции — на случай войны", "score": 3 },
+        { "text": "Я не ем мороженое, я — лёд", "score": -1 }
+      ]
+    },
+    {
+      "type": "yesno",
+      "image": "7.jpg",
+      "caption": "Ты когда-нибудь говорил «я не сру» в 6 утра?",
+      "scoreIfYes": 2,
+      "scoreIfNo": 0
+    },
+    {
+      "type": "choice",
+      "image": "8.jpg",
+      "caption": "Что ты думаешь, когда слышишь «брат крч»?",
+      "options": [
+        { "text": "О, это про хуи", "score": 3 },
+        { "text": "Скоро будет подсос", "score": 2 },
+        { "text": "Зовите психиатра", "score": 1 },
+        { "text": "Это мой звук уведомления", "score": 4 }
+      ]
+    }
+  ]
+}
