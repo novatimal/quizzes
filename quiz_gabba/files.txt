@@ -1,4 +1,4 @@
-https://raw.githubusercontent.com/novatimal/quizzes/mEBENDRILLain/quiz_gabba/answers.json
+https://raw.githubusercontent.com/novatimal/quizzes/main/quiz_gabba/answers.json
 https://raw.githubusercontent.com/novatimal/quizzes/main/quiz_gabba/man1.png
 https://raw.githubusercontent.com/novatimal/quizzes/main/quiz_gabba/eb.jpg
 https://raw.githubusercontent.com/novatimal/quizzes/main/quiz_gabba/kal.jpg
